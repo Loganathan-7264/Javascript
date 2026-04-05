@@ -19,3 +19,21 @@
 // Price = Price + Tax
 // console.log(Price)
 
+// ex 1:
+// let priceString = "50";
+// let priceNumber = Number(priceString);
+// console.log(typeof(priceString));
+// console.log(typeof(priceNumber));
+
+// ex2:
+// let isLoggedIn = true;
+// let isAdmin = true;
+// console.log("Delete User button is visible: ", (isLoggedIn && isAdmin));
+
+let totalItems = 10;
+
+if (totalItems = 0) { 
+    console.log("Your cart is empty!");
+} else {
+    console.log("Proceed to checkout");
+}

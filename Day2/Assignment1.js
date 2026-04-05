@@ -8,7 +8,7 @@ let sub3 = 65;
 let sub4 = 99;
 let sub5 = 92;
 let totalMarks = sub1+sub2+sub3+sub4+sub5
-let percentage = (totalMarks/500)*100
+let percentage = (totalMarks/5)
 
 console.log("Student name: ", studentName);
 console.log("Studenet ID: ", studentId);
