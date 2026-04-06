@@ -17,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/Loganathan-7264/Javascript/issues"
   },
-  "homepage": "https://github.com/Loganathan-7264/Javascript#readme"
+  "homepage": "https://github.com/Loganathan-7264/Javascript#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.2"
+  }
 }
