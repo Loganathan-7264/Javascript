@@ -65,12 +65,19 @@
 // ----------------------------------------------------------------------
 // The "Discount Ninja"
 
-const reqLine = require("readline-sync");
-let age = reqLine.questionInt("Enter your age: ");
-let MC = reqLine.question("Do you have a Membership Card? (true/false): ");
+// const reqLine = require("readline-sync");
+// let age = reqLine.questionInt("Enter your age: ");
+// let MC = reqLine.question("Do you have a Membership Card? (true/false): ");
 
-if (age>=60 || MC==="true"){
-    console.log("Discount Applied!");
-}else{
-    console.log("Full price!");
-}
+// if (age>=60 || MC==="true"){
+//     console.log("Discount Applied!");
+// }else{
+//     console.log("Full price!");
+// }
+// -------------------------------------------------------------------------------
+// nullish coalesching
+
+// let name;
+// let result = name??"sathish";
+// console.log(result);
+
